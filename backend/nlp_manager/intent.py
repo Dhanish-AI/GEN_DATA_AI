@@ -2,9 +2,8 @@ from sentence_transformers import SentenceTransformer, util
 import numpy as np
 
 # --- GLOBAL SINGLETON MODEL ---
-MODEL_PATH = r"C:\Users\lenovo\.cache\huggingface\hub\models--sentence-transformers--all-MiniLM-L6-v2\snapshots\1"
-
-model = SentenceTransformer(MODEL_PATH)
+MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
+model = SentenceTransformer(MODEL_NAME)
 
 # --- INTENT DEFINITIONS ---
 INTENTS = {

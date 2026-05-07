@@ -60,7 +60,11 @@ cd GEN_DATA_AI
    ```bash
    pip install -r requirements.txt
    ```
-5. Run the FastAPI server:
+5. Download the Spacy language model:
+   ```bash
+   python -m spacy download en_core_web_sm
+   ```
+6. Run the FastAPI server:
    ```bash
    uvicorn main:app --reload
    ```
