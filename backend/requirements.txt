@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+pydantic
+openai
+transformers
+torch
+nltk
+spacy
+faker
+httpx
+python-dotenv
+motor
+pymongo
